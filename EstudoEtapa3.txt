@@ -1,0 +1,48 @@
+Processo: Etapa de Aprovisionamento de encomenda
+
+Objetivo: Assegurar que os produtos são adquiridos por fornecedores qualificados, seguindo criterios de qualidade, disponibilidade e outros parametros establecidos.
+
+Participantes:
+    Fornecedor (externo)
+    Serviços Administrativos
+    Responsável Administrativo
+    Funcionario Responsável por Receção
+    Coordenador Tecnico
+
+Tarefas:
+    Escolha de fornecedor (Serviços Administrativos)
+    Analise de conteudo de site, para fornecedor escolhido via net  
+    Receção dos produtos (Responsável Administrativo)
+    Recusa de Receção de produtos (Responsável Administrativo)
+    Registo de danos na embalagem na guia de transporte (Responsável Administrativo)
+    Assinatura da guia de fornecedor (Funcionario Responsável por Receção)
+    Emissão da guia e sua entrega (Responsável Administrativo -> Coordenador Tecnico)
+    Emissão de guia e sua arquivação junto da fatura (Responsável Administrativo)
+
+Happy path:
+    1.Cliente confirma adjudicação
+    2.Escolha de fornecedor
+    3.Encomenda e feita a fornecedor qualificado
+    4.Produtos são entregues dentro de prazo e de acordo com a encomenda
+    5.Equipa administrativa valida a Receção e arquiva documentos
+    6.Emissão da guia e devido tratamento
+
+Caminhos Alternativos:
+
+    2.Escolha de fornecedor via net
+    3.Analise de conteudo do site
+
+--------------------------------------------------------
+
+    5.Produto entregue com embalagem danificada
+    6.Registar ocorrencia ou recusar Receção
+
+--------------------------------------------------------
+
+    5.Entrega de produto sem documentos
+    6.Validaçao da guia nao efetuada
+
+---------------------------------------------------------
+
+    5.Produto não se encontra em conformidade com a encomenda
+    6.Recusa da entrega e não rececionamento da mesma
