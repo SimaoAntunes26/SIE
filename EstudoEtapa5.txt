@@ -1,0 +1,39 @@
+Processo: Preparação e entrega
+
+Objetivo: Garantir que os equipamentos vendidos ou recebidos para reparação são preparados, testados, entregues e reparados quando necessário (seguindo um fluxo padronizado)
+
+Participantes:
+  - Técnico
+  - Gestor de Fornecedores
+  - Administração 
+
+Tarefas:
+  - Avaliar estado - Técnico
+  - Montar equipamento - Técnico
+  - Preencher Nota de Não Conformidade - Administração
+  - Instalar software base - Técnico
+  - Testar Equipamento - Técnico
+  - Embalar produto - Técnico
+  - Entregar produto.
+  - Instalar produto.
+  - Diagnosticar instalação - Técnico
+  - Reencaminhar produto - Gestor de Fornecedores
+  - Diagnosticar equipamento - Técnico
+  - Criar orçamento de reparação - Administração
+  - Reparar equipamento - Técnico
+  - Realizar testes finais - Técnico
+  - Reennviar para fornecedor - Gestor de Fornecedores
+  - Comunicar impossibilidade de conserto Administração
+
+Happy Path:
+  1 - Cliente solicita equipamento novo.
+  2 - Equipamento é recebido, identificado e registrado no sistema.
+  3 - Técnico realiza preparação/montagem e instalação do software.
+  4 - Testes são realizados e equipamento é embalado.
+  5 - Equipamento é entregue ou instalado no cliente.
+
+Caminhos alternativos:
+  1 - Defeito detectado nos componentes: Técnico registra não conformidade e aciona fornecedor.
+  2 - Teste falha após reparação: Retorna para nova tentativa de reparo, envia para fabricante ou não existe reparação possivel
+  3 - Equipamento sem solução: Cliente é informado e decide destino do equipamento.
+  4 - Equipamento enviado para reparação: Cliente pede a reparação de um equipamento.
